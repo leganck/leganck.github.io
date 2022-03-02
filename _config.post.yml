@@ -1,0 +1,41 @@
+widgets:
+        # 配置小部件的配置
+    -
+        # 小部件应该放在哪里，左边栏还是右边栏
+        position: left
+        type: profile
+        # 作者姓名
+        author: leganck
+        # 作者的标题
+        author_title: 
+        # 作者的当前位置
+        location: 
+        # 头像图像的URL或路径
+        avatar: https://files.catbox.moe/hqluar.png
+        # 是否显示圆角的头像
+        avatar_rounded: true
+        # Gravatar的电子邮件地址
+        gravatar: ''
+        # 下面按钮的URL或路径
+        follow_link: 'https://github.com/leganck'
+        # 将显示在概要文件小部件底部的链接
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/leganck'
+    # 目录小部件配置
+    -
+        # 小部件应该放在哪里，左边栏还是右边栏
+        position: left
+        type: toc
+        # 是否显示每个标题的索引
+        index: true
+        # 是否在看不到子标题时将其折叠
+        collapsed: true
+        # 最多可显示的标题级别(1-6)
+        depth: 3
+ # 类别小部件的配置
+    -
+        # 小部件应该放在哪里，左边栏还是右边栏
+        position: left
+        type: categories
